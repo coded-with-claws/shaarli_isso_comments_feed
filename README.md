@@ -2,9 +2,9 @@
 
 This tool addresses the following situation:
 - [Shaarli](https://github.com/shaarli/Shaarli) provides a feed (atom + RSS) for the latest shaares
-- [Isso](https://github.com/posativ/isso) provides an API listing the latest comments but only in JSON format (not in atom / RSS formats)
-=> This tools generates a feed listing the new comments, quoting the associated shaare title.
-=> You then have to move those feed files to the shaarli webserver instance so that they are available to users.
+- [Isso](https://github.com/posativ/isso) provides an API listing the latest comments but only in JSON format (not in atom / RSS formats)\
+&rarr; This tools generates a feed listing the new comments, quoting the associated shaare title.\
+&rarr; You then have to move those feed files to the shaarli webserver instance so that they are available to users.
 
 The feed is generated based on the Isso API "/latest", then enriched with the title of the shaares.
 The generated files are in Atom and RSS formats.
