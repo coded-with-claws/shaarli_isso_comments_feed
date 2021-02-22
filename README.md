@@ -20,8 +20,8 @@ Pre-requisites:
 
 Usage:
 - Call main.py with the needed arguments (for example with cron)
-  o source <venv_path>/bin/activate
-  o python main.py https://myshaarliwebsite.org/ <my_api_secret_value> <output_directory_for_feeds>
+  - source <venv_path>/bin/activate
+  - python main.py https://myshaarliwebsite.org/ <my_api_secret_value> <output_directory_for_feeds>
 - Copy the atom.xml and rss.xml generated files into your webserver directory (for example with cron & sudo)
 - Make sure you don't enable caching (client side) of those files
 
