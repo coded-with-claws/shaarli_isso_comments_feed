@@ -14,6 +14,7 @@ BEWARE:
 - All my code is coded with claws :) (it's dirty yet it works)
 
 Pre-requisites:
+- Python3 (tested on 3.7.3), preferably with virtual environment support
 - Shaarli (tested on v0.12.1) with the Isso plugin working
 - Isso server (tested on v0.12.4) with the "latest-enabled" option enabled (https://github.com/posativ/isso/pull/610 / https://github.com/posativ/isso/issues/556)
 - The isso API "/latest" is expected to be in the path "<shaarli_context>/isso/latest"
